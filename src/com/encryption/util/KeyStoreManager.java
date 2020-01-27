@@ -25,7 +25,7 @@ public class KeyStoreManager {
 	private static String[] KEYTOOL_GEN_CMD = new String[] { "keytool", "-genkey", "-keystore",
 			KEYSTORE_DIR_LOCATION + File.separator + KEY_STORE_NAME, "-alias", KEYPAIR_ALIAS, "-keyalg", KEY_ALG,
 			"-storepass", "_password", "-keysize", KEY_SIZE, "-keypass", "_password", "-dname",
-			"CN=IBM Endpoint Manager for Server Automation, OU=Tivoli, O=IBM" };
+			"CN=DEMO Java App, OU=Demo, O=ABC" };
 
 	/**
 	 * <p>
